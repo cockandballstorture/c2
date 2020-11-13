@@ -20,6 +20,7 @@ else
          printf("x1=%f\nx2=%f",z,w);}
      else{
          x=(-1)*x;
+         x=sqrt(x);
          printf("x1=(i*%f+%f)/2%f\nx2=(-i*%f+%f)/2%f",x,b,a,x,b,a);
             }
 }
